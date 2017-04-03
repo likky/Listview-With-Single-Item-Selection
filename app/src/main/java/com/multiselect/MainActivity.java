@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
 
                 users.set(i, model);
 
-                if (preSelectedIndex > -1){
+                if (preSelectedIndex > -1 &&  preSelectedIndex!=i){
 
                     UserModel preRecord = users.get(preSelectedIndex);
                     preRecord.setSelected(false);
